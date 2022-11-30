@@ -1,0 +1,178 @@
+name,number,status
+PEP 1 – PEP Purpose and Guidelines,1,Process
+PEP 430 – Migrating to Python 3 as the default online documentation,430,Final
+PEP 394 – The “python” Command on Unix-Like Systems,394,Informational
+PEP 291 – Backward Compatibility for the Python 2 Standard Library,291,Informational
+PEP 404 – Python 2.8 Un-release Schedule,404,Informational
+PEP 333 – Python Web Server Gateway Interface v1.0,333,Final
+PEP 272 – API for Block Encryption Algorithms v1.0,272,Informational
+PEP 249 – Python Database API Specification v2.0,249,Final
+PEP 287 – reStructuredText Docstring Format,287,Active
+PEP 247 – API for Cryptographic Hash Functions,247,Informational
+PEP 399 – Pure Python/C Accelerator Module Compatibility Requirements,399,Informational
+PEP 101 – Doing Python Releases 101,101,Informational
+PEP 257 – Docstring Conventions,257,Active
+PEP 290 – Code Migration and Modernization,290,Informational
+PEP 20 – The Zen of Python,20,Informational
+PEP 248 – Python Database API Specification v1.0,248,Final
+PEP 8014 – The Commons Governance Model,8014,Informational
+PEP 8015 – Organization of the Python community,8015,Informational
+PEP 8012 – The Community Governance Model,8012,Informational
+PEP 8013 – The External Council Governance Model,8013,Informational
+PEP 3153 – Asynchronous IO support,3153,Standards Track
+PEP 8011 – Python Governance Model Lead by Trio of Pythonistas,8011,Informational
+PEP 3152 – Cofunctions,3152,Standards Track
+PEP 3145 – Asynchronous I/O For subprocess.Popen,3145,Standards Track
+PEP 8010 – The Technical Leader Governance Model,8010,Informational
+PEP 3146 – Merging Unladen Swallow into CPython,3146,Standards Track
+PEP 3142 – Add a “while” clause to generator expressions,3142,Standards Track
+"PEP 3140 – str(container) should call str(item), not repr(item)",3140,Rejected
+PEP 3139 – Cleaning out sys and the “interpreter” module,3139,Standards Track
+PEP 3136 – Labeled break and continue,3136,Standards Track
+PEP 3133 – Introducing Roles,3133,Standards Track
+PEP 3130 – Access to Current Module/Class/Function,3130,Standards Track
+PEP 3126 – Remove Implicit String Concatenation,3126,Standards Track
+PEP 3128 – BList: A Faster List-like Type,3128,Rejected
+PEP 3125 – Remove Backslash Continuation,3125,Standards Track
+PEP 3122 – Delineation of the main module,3122,Standards Track
+PEP 3117 – Postfix type declarations,3117,Standards Track
+PEP 3103 – A Switch/Case Statement,3103,Standards Track
+PEP 677 – Callable Type Syntax,677,Standards Track
+PEP 666 – Reject Foolish Indentation,666,Standards Track
+PEP 665 – A file format to list Python dependencies for reproducibility of an application,665,Standards Track
+PEP 754 – IEEE 754 Floating Point Special Values,754,Standards Track
+PEP 651 – Robust Stack Overflow Handling,651,Standards Track
+PEP 650 – Specifying Installer Requirements for Python Projects,650,Withdrawn
+"PEP 663 – Standardizing Enum str(), repr(), and format() behaviors",663,Rejected
+PEP 662 – Editable installs via virtual wheels,662,Standards Track
+PEP 3001 – Procedure for reviewing and improving standard library modules,3001,Process
+PEP 648 – Extensible customizations of the interpreter at startup,648,Standards Track
+PEP 645 – Allow writing optional types as ,645,Withdrawn
+PEP 642 – Explicit Pattern Syntax for Structural Pattern Matching,642,Standards Track
+PEP 641 – Using an underscore in the version portion of Python 3.10 compatibility tags,641,Standards Track
+PEP 640 – Unused variable syntax,640,Standards Track
+PEP 633 – Dependency specification in pyproject.toml using an exploded TOML table,633,Standards Track
+PEP 637 – Support for indexing with keyword arguments,637,Standards Track
+PEP 611 – The one million limit,611,Standards Track
+PEP 608 – Coordinated Python release,608,Standards Track
+PEP 631 – Dependency specification in pyproject.toml based on PEP 508,631,Standards Track
+PEP 601 – Forbid return/break/continue breaking out of finally,601,Standards Track
+PEP 622 – Structural Pattern Matching,622,Standards Track
+PEP 599 – The manylinux2014 Platform Tag,599,Superseded
+PEP 605 – A rolling feature release stream for CPython,605,Rejected
+PEP 598 – Introducing incremental feature releases,598,Withdrawn
+PEP 595 – Improving bugs.python.org,595,Withdrawn
+PEP 606 – Python Compatibility Version,606,Standards Track
+PEP 583 – A Concurrency Memory Model for Python,583,Informational
+PEP 580 – The C call protocol,580,Rejected
+PEP 577 – Augmented Assignment Expressions,577,Standards Track
+PEP 576 – Rationalize Built-in function classes,576,Withdrawn
+PEP 575 – Unifying function/method classes,575,Standards Track
+PEP 559 – Built-in noop(),559,Standards Track
+PEP 551 – Security transparency in the Python runtime,551,Informational
+PEP 571 – The manylinux2010 Platform Tag,571,Informational
+PEP 555 – Context-local variables (contextvars),555,Standards Track
+PEP 550 – Execution Context,550,Standards Track
+PEP 549 – Instance Descriptors,549,Rejected
+PEP 546 – Backport ssl.MemoryBIO and ssl.SSLObject to Python 2.7,546,Rejected
+PEP 543 – A Unified TLS API for Python,543,Standards Track
+PEP 548 – More Flexible Loop Control,548,Standards Track
+PEP 542 – Dot Notation Assignment In Function Header,542,Standards Track
+PEP 531 – Existence checking operators,531,Standards Track
+PEP 521 – Managing global context via ‘with’ blocks in generators and coroutines,521,Standards Track
+PEP 522 – Allow BlockingIOError in security sensitive APIs,522,Standards Track
+PEP 513 – A Platform Tag for Portable Linux Built Distributions,513,Informational
+PEP 516 – Build system abstraction for pip/conda etc,516,Standards Track
+PEP 510 – Specialize functions with guards,510,Standards Track
+PEP 511 – API for code transformers,511,Standards Track
+PEP 507 – Migrate CPython to Git and GitLab,507,Process
+PEP 504 – Using the System RNG by default,504,Standards Track
+PEP 502 – String Interpolation - Extended Discussion,502,Informational
+PEP 497 – A standard mechanism for backward compatibility,497,Rejected
+PEP 496 – Environment Markers,496,Rejected
+PEP 500 – A protocol for delegating datetime methods to their tzinfo implementations,500,Rejected
+"PEP 481 – Migrate CPython to Git, Github, and Phabricator",481,Process
+PEP 474 – Creating forge.python.org,474,Process
+PEP 490 – Chain exceptions at C level,490,Standards Track
+PEP 473 – Adding structured data to built-in exceptions,473,Standards Track
+PEP 469 – Migration of dict iteration code to Python 3,469,Standards Track
+PEP 472 – Support for indexing with keyword arguments,472,Rejected
+PEP 463 – Exception-catching expressions,463,Standards Track
+PEP 462 – Core development workflow automation for CPython,462,Process
+PEP 460 – Add binary interpolation and formatting,460,Standards Track
+PEP 459 – Standard Metadata Extensions for Python Software Packages,459,Standards Track
+"PEP 437 – A DSL for specifying signatures, annotations and argument converters",437,Standards Track
+PEP 439 – Inclusion of implicit pip bootstrap in Python installation,439,Standards Track
+PEP 433 – Easier suppression of file descriptor inheritance,433,Standards Track
+PEP 455 – Adding a key-transforming dictionary to collections,455,Rejected
+PEP 431 – Time zone support improvements,431,Superseded
+PEP 416 – Add a frozendict builtin type,416,Standards Track
+PEP 426 – Metadata for Python Software Packages 2.0,426,Informational
+PEP 432 – Restructuring the CPython startup sequence,432,Withdrawn
+PEP 422 – Simpler customisation of class creation,422,Standards Track
+PEP 411 – Provisional packages in the Python standard library,411,Informational
+PEP 410 – Use decimal.Decimal type for timestamps,410,Standards Track
+PEP 413 – Faster evolution of the Python Standard Library,413,Process
+PEP 408 – Standard library __preview__ package,408,Standards Track
+PEP 406 – Improved Encapsulation of Import State,406,Standards Track
+PEP 402 – Simplified Package Layout and Partitioning,402,Standards Track
+PEP 401 – BDFL Retirement,401,Process
+PEP 396 – Module Version Numbers,396,Informational
+PEP 390 – Static metadata for Distutils,390,Standards Track
+PEP 386 – Changing the version comparison module in Distutils,386,Standards Track
+PEP 382 – Namespace Packages,382,Standards Track
+PEP 395 – Qualified Names for Modules,395,Standards Track
+PEP 381 – Mirroring infrastructure for PyPI,381,Standards Track
+PEP 377 – Allow __enter__() methods to skip the statement body,377,Standards Track
+PEP 379 – Adding an Assignment Expression,379,Standards Track
+PEP 369 – Post import hooks,369,Standards Track
+PEP 367 – New Super,367,Standards Track
+PEP 365 – Adding the pkg_resources module,365,Standards Track
+PEP 364 – Transitioning to the Py3K Standard Library,364,Standards Track
+PEP 363 – Syntax For Dynamic Attribute Access,363,Standards Track
+PEP 359 – The “make” Statement,359,Standards Track
+PEP 355 – Path - Object oriented filesystem paths,355,Standards Track
+PEP 354 – Enumerations in Python,354,Standards Track
+PEP 351 – The freeze protocol,351,Standards Track
+PEP 349 – Allow str() to return unicode strings,349,Standards Track
+PEP 350 – Codetags,350,Informational
+PEP 348 – Exception Reorganization for Python 3.0,348,Standards Track
+PEP 345 – Metadata for Python Software Packages 1.2,345,Superseded
+PEP 346 – User Defined (”,346,Standards Track
+PEP 344 – Exception Chaining and Embedded Tracebacks,344,Standards Track
+PEP 339 – Design of the CPython Compiler,339,Informational
+PEP 340 – Anonymous Block Statements,340,Standards Track
+PEP 336 – Make None Callable,336,Standards Track
+PEP 335 – Overloadable Boolean Operators,335,Standards Track
+PEP 334 – Simple Coroutines via SuspendIteration,334,Standards Track
+PEP 332 – Byte vectors and String/Unicode Unification,332,Standards Track
+PEP 330 – Python Bytecode Verification,330,Standards Track
+PEP 329 – Treating Builtins as Constants in the Standard Library,329,Standards Track
+PEP 326 – A Case for Top and Bottom Values,326,Standards Track
+PEP 325 – Resource-Release Support for Generators,325,Standards Track
+PEP 321 – Date/Time Parsing and Formatting,321,Standards Track
+PEP 319 – Python Synchronize/Asynchronize Block,319,Standards Track
+PEP 317 – Eliminate Implicit Exception Instantiation,317,Standards Track
+PEP 315 – Enhanced While Loop,315,Standards Track
+PEP 314 – Metadata for Python Software Packages 1.1,314,Superseded
+PEP 313 – Adding Roman Numeral Literals to Python,313,Standards Track
+PEP 306 – How to Change Python’s Grammar,306,Informational
+PEP 310 – Reliable Acquisition/Release Pairs,310,Standards Track
+PEP 304 – Controlling Generation of Bytecode Files,304,Standards Track
+PEP 303 – Extend divmod() for Multiple Divisors,303,Standards Track
+PEP 298 – The Locked Buffer Interface,298,Standards Track
+PEP 297 – Support for System Upgrades,297,Standards Track
+PEP 296 – Adding a bytes Object Type,296,Standards Track
+PEP 299 – Special __main__() function in modules,299,Standards Track
+PEP 294 – Type Names in the types Module,294,Standards Track
+PEP 295 – Interpretation of multiline string constants,295,Standards Track
+PEP 284 – Integer for-loops,284,Standards Track
+PEP 288 – Generators Attributes and Exceptions,288,Standards Track
+PEP 276 – Simple Iterator for ints,276,Standards Track
+PEP 281 – Loop Counter Iteration with range and xrange,281,Standards Track
+PEP 275 – Switching on Multiple Values,275,Standards Track
+PEP 271 – Prefixing sys.path by command line option,271,Standards Track
+PEP 270 – uniq method for list objects,270,Standards Track
+PEP 268 – Extended HTTP functionality and WebDAV,268,Standards Track
+PEP 266 – Optimizing Global Variable/Attribute Access,266,Standards Track
+PEP 265 – Sorting Dictionaries by Value,265,Standards Track
