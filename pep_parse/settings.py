@@ -1,5 +1,3 @@
-from pathlib import Path
-
 BOT_NAME = 'pep_parse'
 
 SPIDER_MODULES = ['pep_parse.spiders']

@@ -15,8 +15,11 @@ class PepSpider(scrapy.Spider):
 
     def parse_pep(self, response):
         data = {
-            'status': response.xpath("//dd[@class='field-odd']/abbr/text()").get(),
-            'number': response.xpath("//h1[@class='page-title']/text()").get().split()[1],
-            'name': response.xpath("//h1[@class='page-title']/text()").get()
+            'status': response.xpath("//dd[@class='field-odd']"
+                                     "/abbr/text()").get(),
+            'number': response.xpath("//h1[@class='page-title']"
+                                     "/text()").get().split()[1],
+            'name': response.xpath("//h1[@class='page-title']"
+                                   "/text()").get()
         }
         yield PepParseItem(data)
