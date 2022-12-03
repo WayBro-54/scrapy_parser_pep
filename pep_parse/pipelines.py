@@ -22,12 +22,11 @@ class PepParsePipeline:
         file_name = f'status_summary_{now_formatted}.csv'
         file_path = results_dir / file_name
         header = ('Статус', 'Количество')
-        dict_status = Counter(self.statuses)
+        dict_count_status = Counter(self.statuses)
         with open(file_path, 'w', encoding='utf-8', newline='') as f:
             writer = csv.writer(f, dialect='unix', quoting=csv.QUOTE_MINIMAL)
             writer.writerow(header)
-            for key, value in dict_status.items():
-
+            for key, value in dict_count_status.items():
                 data = (str(key), str(value))
                 writer.writerow(data)
-            writer.writerow(('Total', sum(dict_status.values())))
+            writer.writerow(('Total', sum(dict_count_status.values())))
